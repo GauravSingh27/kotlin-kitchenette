@@ -1,4 +1,4 @@
-package controlFlows
+package controlFlows.expression
 
 /**
  * WHEN is replacement of SWITCH-CASE
