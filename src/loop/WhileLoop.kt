@@ -1,4 +1,4 @@
-package controlFlows.loop
+package loop
 
 private fun printFruitsUsingWhile(fruits: List<String>) {
 

@@ -1,4 +1,4 @@
-package controlFlows.loop
+package loop
 
 /**
  * FOR in kotlin is equivalent to FOREACH loop in Java

@@ -1,4 +1,4 @@
-package controlFlows.expression
+package conditionalexpression
 
 /**
  * Traditional If-Else usage
