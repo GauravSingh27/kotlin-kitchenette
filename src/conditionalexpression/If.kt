@@ -20,13 +20,18 @@ fun findMaxTraditional(first: Int, second: Int): Int {
  */
 fun findMaxExpression(first: Int, second: Int): Int {
 
-    val max = if (first > second) first else second
-
+val max = if (first > second) {
+        println("$first is larger than $second.")
+        first
+    } else {
+        println("$second is larger than $first.")
+        second
+    }  
     return max
 }
 
 fun main(args: Array<String>) {
 
-    println("Traditional: ${findMaxTraditional(5, 8)}")
-//    println("Expression: ${findMaxExpression(4,9)}")
+//    println("Traditional: ${findMaxTraditional(5, 8)}")
+    println("Max value using IF-ELSE as expression: ${findMaxExpression(4,9)}")
 }
