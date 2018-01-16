@@ -1,7 +1,7 @@
 packages extensions
 
-fun String.isSafeUrl() : Boolean {
-    return this.startsWith("https")
+fun String.toTitleCase(): String {
+    return this.split(" ").joinToString(" ") { it.capitalize() }
 }
 
 fun <T> MutableList<T>.swap(index1: Int, index2: Int) {
@@ -19,9 +19,9 @@ fun <T> MutableList<T>.swap(index1: Int, index2: Int) {
 
 fun main(args: Array<String>) {
     
-    val url = "Gaurav"
-    println("${url.isSafeUrl()}")
+        println("this is a sample string to title case it".toTitleCase())
+
     
-	val list = mutableListOf(1, 2, 3)
-    list.swap(0, 1) // 'this' inside 'swap()' will hold the value of 'l'
+    //	val list = mutableListOf(1, 2, 3)
+    //	list.swap(0, 1) // 'this' inside 'swap()' will hold the value of 'l'
 }
